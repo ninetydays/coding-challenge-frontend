@@ -3,10 +3,10 @@
 exports[`Login renders login 1`] = `
 <div>
   <div
-    class="sc-dlfnbm iuHaXN"
+    class="sc-dkPtRN liKOnC"
   >
     <div
-      class="MuiFormControl-root MuiTextField-root sc-gsTCUz eHbxyQ"
+      class="MuiFormControl-root MuiTextField-root sc-gsDKAQ eWHWnA"
     >
       <div
         class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
@@ -23,7 +23,7 @@ exports[`Login renders login 1`] = `
       </div>
     </div>
     <div
-      class="MuiFormControl-root MuiTextField-root sc-gsTCUz eHbxyQ"
+      class="MuiFormControl-root MuiTextField-root sc-gsDKAQ eWHWnA"
     >
       <div
         class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
@@ -40,7 +40,7 @@ exports[`Login renders login 1`] = `
       </div>
     </div>
     <button
-      class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-bdfBwQ lfqaYk MuiButton-containedPrimary"
+      class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-bdvvtL dyzeuB MuiButton-containedPrimary"
       tabindex="0"
       type="button"
     >
@@ -54,7 +54,7 @@ exports[`Login renders login 1`] = `
       />
     </button>
     <button
-      class="MuiButtonBase-root MuiButton-root MuiButton-text sc-bdfBwQ lfqaYk MuiButton-textPrimary"
+      class="MuiButtonBase-root MuiButton-root MuiButton-text sc-bdvvtL dyzeuB MuiButton-textPrimary"
       tabindex="0"
       type="button"
     >

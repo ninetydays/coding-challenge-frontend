@@ -26,13 +26,13 @@ exports[`Admin Page renders admin 1`] = `
         class="RaLayout-appFrame-2"
       >
         <header
-          class="MuiPaper-root-51 MuiAppBar-root-40 MuiAppBar-positionFixed-41 MuiAppBar-colorPrimary-47 sc-hKgILt ibAExj mui-fixed MuiPaper-elevation4-58"
+          class="MuiPaper-root-51 MuiAppBar-root-40 MuiAppBar-positionFixed-41 MuiAppBar-colorPrimary-47 sc-hKwDye lneMbB mui-fixed MuiPaper-elevation4-58"
         >
           <span>
             Admin Console
           </span>
           <button
-            class="MuiButtonBase-root-39 MuiButton-root-12 MuiButton-text-14 sc-bdfBwQ lfqaYk MuiButton-colorInherit-24"
+            class="MuiButtonBase-root-39 MuiButton-root-12 MuiButton-text-14 sc-bdvvtL dyzeuB MuiButton-colorInherit-24"
             tabindex="0"
             type="button"
           >
@@ -47,42 +47,46 @@ exports[`Admin Page renders admin 1`] = `
           class="RaLayout-contentWithSidebar-3"
         >
           <div
-            class="MuiDrawer-root-93 RaSidebar-root-79 MuiDrawer-docked-94 RaSidebar-docked-80"
+            class="MuiDrawer-root-94 RaSidebar-root-79 MuiDrawer-docked-95 RaSidebar-docked-80"
           >
             <div
-              class="MuiPaper-root-51 MuiDrawer-paper-95 RaSidebar-paper-81 MuiDrawer-paperAnchorLeft-96 RaSidebar-paperAnchorLeft-82 RaSidebar-drawerPaper-91 RaSidebar-drawerPaper-92 MuiDrawer-paperAnchorDockedLeft-100 RaSidebar-paperAnchorDockedLeft-86 MuiPaper-elevation0-54"
+              class="MuiPaper-root-51 MuiDrawer-paper-96 RaSidebar-paper-81 MuiDrawer-paperAnchorLeft-97 RaSidebar-paperAnchorLeft-82 RaSidebar-drawerPaper-92 RaSidebar-drawerPaper-93 MuiDrawer-paperAnchorDockedLeft-101 RaSidebar-paperAnchorDockedLeft-86 MuiPaper-elevation0-54"
             >
               <div
-                class="RaMenu-main-105 RaMenu-closed-107"
+                class="RaSidebar-fixed-91"
               >
-                <a
-                  aria-current="page"
-                  aria-disabled="false"
-                  class="MuiButtonBase-root-39 MuiListItem-root-135 MuiMenuItem-root-132 RaMenuItemLink-root-118 MuiMenuItem-gutters-133 MuiListItem-gutters-140 MuiListItem-button-141 RaMenuItemLink-active-119"
-                  href="#/users"
-                  role="menuitem"
-                  tabindex="0"
-                  title="Users"
+                <div
+                  class="RaMenu-main-106 RaMenu-closed-108"
                 >
-                  <div
-                    class="MuiListItemIcon-root-143 RaMenuItemLink-icon-120"
+                  <a
+                    aria-current="page"
+                    aria-disabled="false"
+                    class="MuiButtonBase-root-39 MuiListItem-root-132 MuiMenuItem-root-129 RaMenuItemLink-root-115 MuiMenuItem-gutters-130 MuiListItem-gutters-137 MuiListItem-button-138 RaMenuItemLink-active-116"
+                    href="#/users"
+                    role="menuitem"
+                    tabindex="0"
+                    title="Users"
                   >
-                    <svg
-                      class="MuiSvgIcon-root-145"
-                      focusable="false"
-                      role="img"
-                      viewBox="0 0 24 24"
+                    <div
+                      class="MuiListItemIcon-root-140 RaMenuItemLink-icon-117"
                     >
-                      <path
-                        d="M4 14h4v-4H4v4zm0 5h4v-4H4v4zM4 9h4V5H4v4zm5 5h12v-4H9v4zm0 5h12v-4H9v4zM9 5v4h12V5H9z"
-                      />
-                      <title>
-                        Users
-                      </title>
-                    </svg>
-                  </div>
-                  Users
-                </a>
+                      <svg
+                        class="MuiSvgIcon-root-142"
+                        focusable="false"
+                        role="img"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M4 14h4v-4H4v4zm0 5h4v-4H4v4zM4 9h4V5H4v4zm5 5h12v-4H9v4zm0 5h12v-4H9v4zM9 5v4h12V5H9z"
+                        />
+                        <title>
+                          Users
+                        </title>
+                      </svg>
+                    </div>
+                    Users
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -91,14 +95,14 @@ exports[`Admin Page renders admin 1`] = `
             id="main-content"
           >
             <div
-              class="list-page RaList-root-154"
+              class="list-page RaList-root-151"
             >
               <div
-                class="MuiToolbar-root-162 MuiToolbar-regular-164 RaListToolbar-toolbar-160 MuiToolbar-gutters-163"
+                class="MuiToolbar-root-159 MuiToolbar-regular-161 RaListToolbar-toolbar-157 MuiToolbar-gutters-160"
               >
                 <span />
                 <div
-                  class="MuiToolbar-root-162 MuiToolbar-regular-164 RaTopToolbar-root-166 RaListToolbar-actions-161 MuiToolbar-gutters-163"
+                  class="MuiToolbar-root-159 MuiToolbar-regular-161 RaTopToolbar-root-163 RaListToolbar-actions-158 MuiToolbar-gutters-160"
                 >
                   <button
                     aria-label="Export"
@@ -111,7 +115,7 @@ exports[`Admin Page renders admin 1`] = `
                     >
                       <svg
                         aria-hidden="true"
-                        class="MuiSvgIcon-root-145 RaButton-smallIcon-9"
+                        class="MuiSvgIcon-root-142 RaButton-smallIcon-9"
                         focusable="false"
                         viewBox="0 0 24 24"
                       >
@@ -129,31 +133,31 @@ exports[`Admin Page renders admin 1`] = `
                 </div>
               </div>
               <div
-                class="RaList-main-155"
+                class="RaList-main-152"
               >
                 <div
-                  class="MuiPaper-root-51 MuiCard-root-167 RaList-content-156 MuiPaper-elevation1-55 MuiPaper-rounded-52"
+                  class="MuiPaper-root-51 MuiCard-root-164 RaList-content-153 MuiPaper-elevation1-55 MuiPaper-rounded-52"
                 >
                   <div
-                    class="MuiToolbar-root-162 MuiToolbar-regular-164 RaBulkActionsToolbar-toolbar-168 RaBulkActionsToolbar-collapsed-171 MuiToolbar-gutters-163"
+                    class="MuiToolbar-root-159 MuiToolbar-regular-161 RaBulkActionsToolbar-toolbar-165 RaBulkActionsToolbar-collapsed-168 MuiToolbar-gutters-160"
                     data-test="bulk-actions-toolbar"
                   >
                     <div
-                      class="RaBulkActionsToolbar-title-172"
+                      class="RaBulkActionsToolbar-title-169"
                     >
                       <button
                         aria-label="Unselect"
-                        class="MuiButtonBase-root-39 MuiIconButton-root-174 RaBulkActionsToolbar-icon-173 MuiIconButton-sizeSmall-180"
+                        class="MuiButtonBase-root-39 MuiIconButton-root-171 RaBulkActionsToolbar-icon-170 MuiIconButton-sizeSmall-177"
                         tabindex="0"
                         title="Unselect"
                         type="button"
                       >
                         <span
-                          class="MuiIconButton-label-181"
+                          class="MuiIconButton-label-178"
                         >
                           <svg
                             aria-hidden="true"
-                            class="MuiSvgIcon-root-145 MuiSvgIcon-fontSizeSmall-152"
+                            class="MuiSvgIcon-root-142 MuiSvgIcon-fontSizeSmall-149"
                             focusable="false"
                             viewBox="0 0 24 24"
                           >
@@ -164,17 +168,17 @@ exports[`Admin Page renders admin 1`] = `
                         </span>
                       </button>
                       <h6
-                        class="MuiTypography-root-182 MuiTypography-subtitle1-193 MuiTypography-colorInherit-204"
+                        class="MuiTypography-root-179 MuiTypography-subtitle1-190 MuiTypography-colorInherit-201"
                       >
                         0 items selected
                       </h6>
                     </div>
                     <div
-                      class="MuiToolbar-root-162 MuiToolbar-regular-164 RaTopToolbar-root-166 RaBulkActionsToolbar-topToolbar-169 MuiToolbar-gutters-163"
+                      class="MuiToolbar-root-159 MuiToolbar-regular-161 RaTopToolbar-root-163 RaBulkActionsToolbar-topToolbar-166 MuiToolbar-gutters-160"
                     >
                       <button
                         aria-label="Delete"
-                        class="MuiButtonBase-root-39 MuiButton-root-12 MuiButton-text-14 RaButton-button-6 RaBulkDeleteWithUndoButton-deleteButton-212 MuiButton-textPrimary-15 MuiButton-textSizeSmall-25 MuiButton-sizeSmall-31"
+                        class="MuiButtonBase-root-39 MuiButton-root-12 MuiButton-text-14 RaButton-button-6 RaBulkDeleteWithUndoButton-deleteButton-209 MuiButton-textPrimary-15 MuiButton-textSizeSmall-25 MuiButton-sizeSmall-31"
                         tabindex="0"
                         type="button"
                       >
@@ -183,7 +187,7 @@ exports[`Admin Page renders admin 1`] = `
                         >
                           <svg
                             aria-hidden="true"
-                            class="MuiSvgIcon-root-145 RaButton-smallIcon-9"
+                            class="MuiSvgIcon-root-142 RaButton-smallIcon-9"
                             focusable="false"
                             viewBox="0 0 24 24"
                           >
@@ -201,7 +205,7 @@ exports[`Admin Page renders admin 1`] = `
                     </div>
                   </div>
                   <div
-                    class="MuiToolbar-root-162 MuiToolbar-dense-165 MuiToolbar-gutters-163"
+                    class="MuiToolbar-root-159 MuiToolbar-dense-162 MuiToolbar-gutters-160"
                   />
                 </div>
               </div>

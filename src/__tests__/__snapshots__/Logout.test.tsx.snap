@@ -3,10 +3,10 @@
 exports[`Logout renders logout 1`] = `
 <div>
   <div
-    class="sc-dlfnbm iuHaXN"
+    class="sc-dkPtRN liKOnC"
   >
     <button
-      class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-bdfBwQ lfqaYk MuiButton-containedPrimary"
+      class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-bdvvtL dyzeuB MuiButton-containedPrimary"
       tabindex="0"
       type="button"
     >
@@ -20,7 +20,7 @@ exports[`Logout renders logout 1`] = `
       />
     </button>
     <button
-      class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-bdfBwQ lfqaYk MuiButton-containedSecondary"
+      class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-bdvvtL dyzeuB MuiButton-containedSecondary"
       tabindex="0"
       type="button"
     >

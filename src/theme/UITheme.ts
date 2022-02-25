@@ -1,9 +1,9 @@
-import { createMuiTheme } from '@material-ui/core/styles';
+import { createTheme } from '@material-ui/core/styles';
 import { blue, grey, green, orange } from '@material-ui/core/colors';
 import { Color } from 'types';
 
 const buildThemeDefault = (color: Color) =>
-  createMuiTheme({
+  createTheme({
     palette: {
       primary: {
         main: color.primary || blue[`A100`],

@@ -31,7 +31,12 @@ const schema = Yup.object().shape({
 export function Login() {
   const { login } = useAuth();
   const history = useHistory();
-  const { control, handleSubmit, errors, reset } = useForm<IFormInput>({
+  const {
+    control,
+    handleSubmit,
+    formState: { errors },
+    reset,
+  } = useForm<IFormInput>({
     resolver: yupResolver(schema),
   });
 
@@ -63,7 +68,7 @@ export function Login() {
         rules={{ required: true }}
         control={control}
         defaultValue=""
-        render={({ onChange, value }) => (
+        render={({ field: { onChange, value } }) => (
           <DefaultInput
             name="user"
             type="email"
@@ -80,7 +85,7 @@ export function Login() {
         rules={{ required: true }}
         control={control}
         defaultValue=""
-        render={({ onChange, value }) => (
+        render={({ field: { onChange, value } }) => (
           <DefaultInput
             name="password"
             type="password"

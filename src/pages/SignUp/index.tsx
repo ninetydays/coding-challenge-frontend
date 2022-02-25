@@ -35,7 +35,11 @@ const schema = Yup.object().shape({
 
 export function SignUp() {
   const { signUp } = useAuth();
-  const { control, handleSubmit, errors } = useForm<IFormInput>({
+  const {
+    control,
+    handleSubmit,
+    formState: { errors },
+  } = useForm<IFormInput>({
     resolver: yupResolver(schema),
   });
   const history = useHistory();
@@ -65,7 +69,7 @@ export function SignUp() {
         rules={{ required: true }}
         control={control}
         defaultValue=""
-        render={({ onChange, value }) => (
+        render={({ field: { onChange, value } }) => (
           <Select
             native
             value={value}
@@ -88,7 +92,7 @@ export function SignUp() {
         rules={{ required: true }}
         control={control}
         defaultValue=""
-        render={({ onChange, value }) => (
+        render={({ field: { onChange, value } }) => (
           <DefaultInput
             placeholder="Email"
             type="text"
@@ -104,7 +108,7 @@ export function SignUp() {
         rules={{ required: true }}
         control={control}
         defaultValue=""
-        render={({ onChange, value }) => (
+        render={({ field: { onChange, value } }) => (
           <DefaultInput
             placeholder="Password"
             type="password"
@@ -120,7 +124,7 @@ export function SignUp() {
         rules={{ required: true }}
         control={control}
         defaultValue=""
-        render={({ onChange, value }) => (
+        render={({ field: { onChange, value } }) => (
           <DefaultInput
             placeholder="Confirm Password"
             type="password"

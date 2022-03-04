@@ -1,34 +1,36 @@
-# Nerdyfactory react app template
-This template includes
-#### Bootstraping
-- [Create React App](https://github.com/facebook/create-react-app)
+# Kross Finance Coding challenge
 
-#### Routing
-- [react-router-dom](https://reactrouter.com/)
+Hi, thanks for applying for the react front-end developer position at Kross Finance Korea.
+This coding challenge is aiming to evaluate a candidate's problem-solving skills in real-world experiences.
+The specific tasks are listed in **the Github issue tracker** and you could submit and merge a PR as you might work with the GitHub issue tracker. The tasks include a bug fix and feature request.
 
-#### Linting and formatting
-- [eslint](https://eslint.org/)
-- [prettier](https://prettier.io/)
+#### Before you start
 
-#### Testing
-- [jest](https://jestjs.io/)
-- [testing library](https://testing-library.com/)
-
+- This `README` file has a basic description of the project. Please read it carefully.
+- Look through the tasks and give a quick time estimation for completing the challenge.
+- Submit the PR and merge by yourself for each task. Make sure to specify how much time you spent on the task.
+- use `yarn` over `npm`
 
 ## Install
-  1. Make sure you have [**node**](https://nodejs.org/), [**yarn**](https://yarnpkg.com/) installed.
-  2. install dependencies
-  ```
-  $ yarn install
-  ```
-  3. running test to check everything is fine
-  ```
-  $ yarn test
-  ```
-  4. runnging development server
-  ```
-  $ yarn start
-  ```
+
+1. Make sure you have [**node**](https://nodejs.org/), [**yarn**](https://yarnpkg.com/) installed.
+2. install dependencies
+
+```
+$ yarn install
+```
+
+3. running test to check everything is fine
+
+```
+$ yarn test
+```
+
+4. runnging development server
+
+```
+$ yarn start
+```
 
 ## Available Scripts
 
